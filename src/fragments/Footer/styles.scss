@@ -1,0 +1,30 @@
+@import "../../scss/colors";
+
+.footer {
+    min-height: 25vh;
+    background: $background;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .content {
+        width: 960px;
+        text-align: center;
+        color: $white;
+
+        h3 {
+            font-family: 'Gilroy-ExtraBold'!important;
+            color: $primary;
+            padding-bottom: 8px;
+        }
+        p {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: "Gilroy-Light"!important;
+            a {
+                margin: 0 3px;
+            }
+        }
+    }
+}

@@ -6,12 +6,27 @@
     display: flex;
     padding: 30px;
     padding-left: 0;
+
+    @media screen and (max-width: 900px) {
+        flex-direction: column;
+        padding-right: 0;
+
+        .img-container {
+            width: 100%!important;
+
+            img {
+                width: 75%!important;
+            }
+        }
+        .informations {
+            padding: 0!important;
+        }
+    }
     
     .img-container {
         overflow: hidden;
         width: 40%;
         height: auto;
-        border-radius: 15px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -42,7 +57,7 @@
             cursor: pointer;
             width: 100%;
             transition: opacity 0.2s ease-in-out;
-            height: 100%;
+            border-radius: 8px;
         }
     }
 
@@ -59,14 +74,19 @@
 
         .technologies {
             padding-top: 15px;
+            display: flex;
+            justify-content: center;
+            width: 80%;
+            flex-wrap: wrap;
             img {
                 width: 32px;
+                height: 32px;
                 padding: 10px;
             }
         }
         
         a {
-            font-size: 3em;
+            font-size: 2.5em;
             font-family: "HansKendrick";
             text-decoration: none;
             color: $primary;
@@ -79,6 +99,7 @@
         p {
             color: $white;
             max-width: 80%;
+            text-align: justify;
         }
     }
 }

@@ -25,7 +25,6 @@ class Stack extends React.Component {
 			<div className="stack">
 				<div>
 					<h1>{strings.TECHNOLOGY_STACK}</h1>
-
 					<div className="technologies">
 						<div className="technology">
 							<a className="icon-js">JavaScript</a>

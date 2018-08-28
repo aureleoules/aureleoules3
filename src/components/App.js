@@ -5,6 +5,8 @@ import Stack from 'fragments/Stack';
 import Featured from 'fragments/Featured';
 import Projects from 'fragments/Projects';
 
+import Footer from 'fragments/Footer';
+
 class App extends React.Component {
     render() {
         return <div>
@@ -12,6 +14,7 @@ class App extends React.Component {
 			<Stack />
 			<Featured />
 			<Projects />
+			<Footer/>
 		</div>;
     }
 }

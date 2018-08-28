@@ -11,7 +11,7 @@ class FeaturedProject extends React.Component {
                     <p>{this.props.description}</p>
                     <div className="technologies">
                         {this.props.technologies.map((tech, i) => {
-                            return <img src={require("../../assets/icons/" + tech + ".svg")}/>
+                            return <img alt={tech} src={require("../../assets/icons/" + tech + ".svg")}/>
                         })}
                     </div>
                 </div>
