@@ -1,0 +1,53 @@
+@import "../../scss/colors";
+
+.home {
+    height: 100vh;
+    width: 100%;
+    background-color: $background;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        color: $primary;
+    }
+    
+    h3  {
+        color: $white;
+    }
+
+    .light {
+        font-family: "Gilroy-Light"
+    }
+
+    .top {
+        top: 35px;
+        right: 0;
+        position: absolute;
+        width: 100%;
+        .logo {
+            content: url("https://i.imgur.com/lwxaMD3.png");
+            width: 50px;
+            left: 35px;
+            top: -10px;
+            position: absolute;
+        }
+        .socials {
+            position: absolute;
+            text-align: center;
+            right: 35px;
+            a {
+                margin: 0px 10px;
+                transition: all 250ms ease-in-out;
+                border-radius: 50%;
+                    
+                &:hover {
+                    transform: scale(1.1);
+                    
+                    background: $white;
+                    opacity: 0.9;
+                }
+            }   
+        }
+    }
+}
