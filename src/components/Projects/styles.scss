@@ -1,0 +1,111 @@
+@import '../../scss/colors';
+
+.projects {
+	min-height: 100vh;
+	width: 100%;
+	background-color: #ee5253;
+	position: relative;
+	display: flex;
+	justify-content: center;
+
+	h1 {
+		color: $white;
+		text-align: center;
+		width: 100%;
+	}
+
+	.projects-container {
+		margin: 0 auto;
+		width: 90%;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+
+		.project {
+			padding: 0.75rem;
+			display: block;
+			align-items: center;
+			justify-content: center;
+			color: #1c1d25;
+			font-weight: bold;
+			width: 350px;
+			min-height: 120px;
+			border-radius: 6px;
+			background: #f2f2f2;
+			margin: 15px;
+			box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+				0 3px 6px rgba(0, 0, 0, 0.23);
+			transition: transform 0.15s ease-in-out;
+			position: relative;
+			text-align: center;
+			margin: 30px;
+
+			&>a {
+				text-decoration: none;
+				color: $background;
+				width: 100%;
+				text-align: center;
+				font-size: 2rem;
+				position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    width: 32px;
+                    padding: 8px;
+                }
+
+				&:before {
+					content: '';
+					position: absolute;
+					text-align: center;
+					width: 75%;
+					height: 1px;
+					bottom: 0;
+					left: 12.5%;
+					border-bottom: 2px solid #00d1b2;
+				}
+			}
+			a,
+            p,
+            span {
+				font-family: 'Gilroy-Light';
+				font-weight: 100;
+			}
+			p {
+				margin: 1rem !important;
+			}
+
+            .infos {
+                display: flex;
+                align-items: center;
+                div {
+                    display: flex;
+                    align-items: center;
+                    position: absolute;
+                    bottom: 15px;
+
+                    span {
+                        margin-left: 2px;
+                    }
+
+                    a {
+                        height: 24px;
+                    }
+                    &.star {
+                        left: 15px;
+                    }
+                    &.fork {
+                        right: 15px;
+                    }
+                }
+
+            }
+
+			&:hover {
+				transform: scale(1.05);
+			}
+		}
+	}
+}
