@@ -1,49 +1,49 @@
-a.icon-github {
+a.icon-github::before {
     content: url("../assets/icons/github.svg");
     width: 32px;
     height: 32px;
 }
-a.icon-mail {
+a.icon-mail::before {
     content: url("../assets/icons/mail.svg");
     width: 32px;
     height: 32px;
 }
-a.icon-twitter {
+a.icon-twitter::before {
     content: url("../assets/icons/twitter.svg");
     width: 32px;
     height: 32px;
 }
 
-a.icon-js {
+a.icon-js::before {
     content: url("../assets/icons/JavaScript.svg");
 }
-a.icon-nodejs {
+a.icon-nodejs::before {
     content: url("../assets/icons/nodejs.svg");
 }
-a.icon-react {
+a.icon-react::before {
     content: url("../assets/icons/react.svg");
 }
-a.icon-webpack {
+a.icon-webpack::before {
     content: url("../assets/icons/webpack.svg");
 }
-a.icon-golang {
+a.icon-golang::before {
     content: url("../assets/icons/Go.svg");
 }
-a.icon-mongodb {
+a.icon-mongodb::before {
     content: url("../assets/icons/mongodb.svg");
 }
-a.icon-mysql {
+a.icon-mysql::before {
     content: url("../assets/icons/mysql.svg");
 }
-a.icon-sass {
+a.icon-sass::before {
     content: url("../assets/icons/sass.svg");
 }
-a.icon-star {
+a.icon-star::before {
     content: url("../assets/icons/star.svg");
 }
-a.icon-fork {
+a.icon-fork::before {
     content: url("../assets/icons/fork.svg");
 }
-a.icon-heart {
+a.icon-heart::before {
     content: url("../assets/icons/heart.svg");
 }
