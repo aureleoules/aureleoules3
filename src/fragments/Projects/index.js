@@ -4,6 +4,10 @@ import './styles.scss';
 
 import ScrollReveal from 'scrollreveal';
 
+import GitHubProject from 'components/GitHubProject';
+
+import strings from 'strings';
+
 class Projects extends React.Component {
     
     constructor() {
@@ -59,34 +63,12 @@ class Projects extends React.Component {
     render() {
         return <div className="projects">
 				<div className="projects-container">
-				    <h1>Projects</h1>
+				    <h1>{strings.GITHUB_PROJECTS}</h1>
 					{this.state.repositories.sort((a, b) => {
                         return new Date(b.created_at) - new Date(a.created_at);
                     }).map((repo, i) => {
                         const icon = require("../../assets/icons/" + repo.language + ".svg");
-                        return <div className="project">
-								<a href={repo.homepage || repo.html_url} target="_blank">
-									{repo.name}
-									<img src={icon} />
-								</a>
-								<p className="description">
-									{repo.description}
-								</p>
-								<div className="infos">
-                                    <div className="star">
-                                        <a href={repo.html_url + "/stargazers"} target="_blank" className="icon-star">
-                                            Star
-                                        </a>
-                                        <span>{repo.stargazers_count}</span>
-                                    </div>
-                                    <div className="fork">
-                                        <a href={repo.html_url + "/fork"} target="_blank" className="icon-fork">
-                                            Fork
-                                        </a>
-                                        <span>{repo.forks_count}</span>
-                                    </div>
-								</div>
-							</div>;
+                        return <GitHubProject icon={icon} repository={repo}/>;
 					})}
 				</div>
 			</div>;

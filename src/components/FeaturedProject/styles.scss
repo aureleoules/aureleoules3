@@ -1,0 +1,84 @@
+@import "../../scss/colors";
+    
+.featured-project {
+    position: relative;
+    width: 90%;
+    display: flex;
+    padding: 30px;
+    padding-left: 0;
+    
+    .img-container {
+        overflow: hidden;
+        width: 40%;
+        height: auto;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        h2 {
+            position: absolute;
+            font-family: "Gilroy-ExtraBold"!important;
+            color: $white;
+            font-size: 2.5em;
+            opacity: 0;
+            transition: opacity .3s ease-in-out;
+            &:hover {
+                opacity: 1;
+            }
+        }
+
+        
+        &:hover {
+            h2 {
+                opacity: 1;
+            }
+            img {
+                opacity: 0.6;
+            }
+        }
+        
+        img {
+            cursor: pointer;
+            width: 100%;
+            transition: opacity 0.2s ease-in-out;
+            height: 100%;
+        }
+    }
+
+    .informations {
+        position: relative;
+        top: 0;
+        right: 0;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+
+        .technologies {
+            padding-top: 15px;
+            img {
+                width: 32px;
+                padding: 10px;
+            }
+        }
+        
+        a {
+            font-size: 3em;
+            font-family: "HansKendrick";
+            text-decoration: none;
+            color: $primary;
+            transition: color 0.15s ease-in;
+
+            &:hover {
+                color: $secondary;
+            }
+        }
+        p {
+            color: $white;
+            max-width: 80%;
+        }
+    }
+}

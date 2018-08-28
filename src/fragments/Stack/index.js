@@ -4,6 +4,8 @@ import ScrollReveal from 'scrollreveal';
 
 import './styles.scss';
 
+import strings from 'strings';
+
 class Stack extends React.Component {
     
     componentDidMount() {
@@ -22,7 +24,7 @@ class Stack extends React.Component {
 		return (
 			<div className="stack">
 				<div>
-					<h1>Technology Stack</h1>
+					<h1>{strings.TECHNOLOGY_STACK}</h1>
 
 					<div className="technologies">
 						<div className="technology">

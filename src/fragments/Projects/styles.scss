@@ -1,0 +1,25 @@
+@import '../../scss/colors';
+
+.projects {
+	min-height: 100vh;
+	width: 100%;
+	background-color: #ee5253;
+	position: relative;
+	display: flex;
+	justify-content: center;
+
+	h1 {
+		color: $white;
+		text-align: center;
+		width: 100%;
+		padding-top: 100px;
+	}
+
+	.projects-container {
+		margin: 0 auto;
+		width: 90%;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+}

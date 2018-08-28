@@ -1,6 +1,5 @@
 import React from 'preact';
 
-import strings from 'strings';
 import './styles.scss';
 
 class Home extends React.Component {

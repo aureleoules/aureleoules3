@@ -1,0 +1,17 @@
+@import "../../scss/colors";
+
+.featured {
+    min-height: 100vh;
+	width: 100%;
+	background-color: $background;
+	position: relative;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+        color: $white;
+        padding-top: 100px;
+    }
+}
