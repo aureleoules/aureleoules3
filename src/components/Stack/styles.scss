@@ -1,0 +1,57 @@
+@import "../../scss/colors";
+
+.stack {
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    background: #01a3a4;
+
+
+    h1 {
+        color: $white;
+        text-align: center;
+        margin-bottom: 35px!important;
+    }
+
+    .technologies {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 900px;
+        
+        .technology {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $background;
+            font-weight: bold;
+            width: 160px;
+            height: 80px;
+            border-radius: 6px;
+            background: $white;
+            margin: 15px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+            
+            // animation: scale-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+
+            a {
+                width: 50px;
+                height: auto;
+                padding: 15px 0px 15px 15px;
+            }
+            p {
+                padding: 15px;
+            }
+
+            transition: transform 0.15s ease-in-out;
+            &:hover {
+                transform: scale(1.05);
+            }
+        }
+    }
+}
