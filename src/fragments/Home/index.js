@@ -12,13 +12,19 @@ class Home extends React.Component {
                         <h3 className="tracking-in-expand">FullStack Developer</h3>
 					</div>
                     <div className="top">
-                        <div className="logo scale-in-center"/>
+                        <a className="logo">
+                            <img alt="Logo" src={require("../../assets/icons/logo.png")} />
+                        </a>
                         <div className="socials">
-                            <a rel="noopener noreferrer" href="https://github.com/aureleoules" target="_blank" className="icon-github scale-in-center">
-                                    Github
+                            <a rel="noopener noreferrer" href="https://github.com/aureleoules" target="_blank" >
+                                    <img alt="GitHub" src={require("../../assets/icons/github.svg")}/>
                                 </a>
-                            <a href="mailto:aurele@oules.com" className="icon-mail scale-in-center">Email</a>
-                            <a rel="noopener noreferrer" href="https://twitter.com/aureleoules_" target="_blank" className="icon-twitter scale-in-center">Twitter</a>
+                            <a href="mailto:aurele@oules.com">
+                                <img alt="Email" src={require("../../assets/icons/mail.svg")} />
+                            </a>
+                            <a rel="noopener noreferrer" href="https://twitter.com/aureleoules_" target="_blank">
+                                <img alt="Twitter" src={require("../../assets/icons/twitter.svg")} />
+                            </a>
                         </div>
                     </div>
 				</div>

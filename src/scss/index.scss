@@ -46,4 +46,8 @@ body, html, #root {
     h3 {
         font-size: 1.5em;
     }
+
+    a[class^="icon-"] {
+        font-size: 0;
+    }
 }
