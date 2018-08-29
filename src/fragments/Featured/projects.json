@@ -29,7 +29,7 @@
         "title": "Sol6",
         "description_fr": "Sol6 est une association à but non lucratif qui permet aux étudiants de l’Université Pierre et Marie Curie (Paris VI), en majeur partie, de participer à des actions solidaires à l’étranger et de les guider lors de la préparation de leurs projets humanitaires.",
         "description_en": "Sol6 is a non-profit association that allows students from the Pierre and Marie Curie University (Paris VI), for the most part, to take part in solidarity actions abroad and to guide them in the preparation of their humanitarian projects.",
-        "url": "https://sol6.herokuapp.com/",
+        "url": "https://www.sol6.org",
         "technologies": [
             "JavaScript",
             "react",
