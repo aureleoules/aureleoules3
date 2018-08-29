@@ -1,7 +1,7 @@
 @import '../../scss/colors';
 
 .projects {
-	min-height: 100vh;
+	min-height: 30vh;
 	width: 100%;
 	background-color: #ee5253;
 	position: relative;
@@ -14,6 +14,16 @@
 		text-align: center;
 		width: 100%;
 		padding-top: 100px;
+		cursor: pointer;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		img {
+			width: 50px;
+			margin-left: 10px;
+		}
 	}
 
 	.projects-container {

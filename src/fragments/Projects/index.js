@@ -13,13 +13,26 @@ class Projects extends React.Component {
     constructor() {
         super();
         this.state = {
-            repositories: []
+            repositories: [],
+            languageFilter: window.location.hash.replace("#", "")
         }
     }
 
     componentDidMount() {
         this.pageIndex = 1;
         this.getRepositories(this.pageIndex);
+
+        window.onhashchange = () => {
+            this.setState({languageFilter: window.location.hash.replace("#", "")}, () => {
+                document
+                    .getElementById('projects')
+                    .scrollIntoView({
+                        behavior: 'smooth',
+                        block: "start", 
+                        inline: "nearest"
+                    });
+            });
+        }
     }
 
     doneFetching = () => {
@@ -60,14 +73,31 @@ class Projects extends React.Component {
         });
     }
 
+    removeFilter = () => {
+        this.setState({languageFilter: ""}, () => {
+            window.history.pushState(null, null, '#');
+        });
+    }
+
     render() {
-        return <div className="projects">
-				<div className="projects-container">
-				    <h1>{strings.GITHUB_PROJECTS}</h1>
+        return <div id="projects" className="projects">
+                <div className="projects-container">
+                    <h1 onClick={this.removeFilter}>
+                        {strings.GITHUB_PROJECTS} 
+                        {this.state.languageFilter && <img src={require('../../assets/icons/' + this.state.languageFilter + ".svg")}/>}
+                    </h1>
+                    
 					{this.state.repositories.sort((a, b) => {
                         return new Date(b.created_at) - new Date(a.created_at);
-                    }).map((repo, i) => {
-                        const icon = require("../../assets/icons/" + repo.language + ".svg");
+                    })
+                    .filter(repo => {
+                        if(this.state.languageFilter) {
+                            return repo.language.toLowerCase() === this.state.languageFilter
+                        }
+                        return true;
+                    })
+                    .map((repo, i) => {
+                        const icon = require("../../assets/icons/" + repo.language.toLowerCase() + ".svg");
                         return <GitHubProject icon={icon} repository={repo}/>;
 					})}
 				</div>
