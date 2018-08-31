@@ -13,17 +13,30 @@
         "screenshot_name": "constanceoules.com.png"
     },
     {
-        "title": "aurele.oules.com",
-        "description_fr": "Mon site web personnel.",
-        "description_en": "My personal website.",
+        "title": "aureleoules3",
+        "description_fr": "Mon site web personnel. (v3)",
+        "description_en": "My personal website. (v3)",
         "url": "https://aurele.oules.com",
+        "technologies": [
+            "JavaScript",
+            "react",
+            "sass",
+            "webpack"
+        ],
+        "screenshot_name": "aureleoules3.png"
+    },
+    {
+        "title": "aureleoules2",
+        "description_fr": "Mon site web personnel. (v2)",
+        "description_en": "My personal website. (v2)",
+        "url": "https://aureleoules2.netlify.com/",
         "technologies": [
             "JavaScript",
             "angular",
             "CSS",
             "webpack"
         ],
-        "screenshot_name": "aurele.oules.com.png"
+        "screenshot_name": "aureleoules2.png"
     },
     {
         "title": "Sol6",

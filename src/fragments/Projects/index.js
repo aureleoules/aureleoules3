@@ -84,7 +84,7 @@ class Projects extends React.Component {
                 <div className="projects-container">
                     <h1 onClick={this.removeFilter}>
                         {strings.GITHUB_PROJECTS} 
-                        {this.state.languageFilter && <img src={require('../../assets/icons/' + this.state.languageFilter + ".svg")}/>}
+                        {this.state.languageFilter && <img alt="language" src={require('../../assets/icons/' + this.state.languageFilter + ".svg")}/>}
                     </h1>
                     
 					{this.state.repositories.sort((a, b) => {
