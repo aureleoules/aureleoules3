@@ -19,9 +19,6 @@ class Home extends React.Component {
                             <a rel="noopener noreferrer" href="https://github.com/aureleoules" target="_blank" >
                                     <img alt="GitHub" src={require("../../assets/icons/github.svg")}/>
                                 </a>
-                            <a href="mailto:aurele@oules.com">
-                                <img alt="Email" src={require("../../assets/icons/mail.svg")} />
-                            </a>
                             <a rel="noopener noreferrer" href="https://twitter.com/aureleoules_" target="_blank">
                                 <img alt="Twitter" src={require("../../assets/icons/twitter.svg")} />
                             </a>
