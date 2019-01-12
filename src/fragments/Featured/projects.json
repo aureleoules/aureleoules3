@@ -10,7 +10,8 @@
             "sass", 
             "webpack",
             "go",
-            "mongodb"
+            "mongodb",
+            "heroku"
         ],
         "screenshot_name": "reflecty.app.png"
     },
@@ -23,7 +24,10 @@
             "JavaScript", 
             "react", 
             "sass", 
-            "webpack"
+            "webpack",
+            "go",
+            "mongodb",
+            "heroku"
         ],
         "screenshot_name": "constanceoules.com.png"
     },
@@ -65,7 +69,8 @@
             "webpack",
             "nodejs",
             "express",
-            "mongodb"
+            "mongodb",
+            "heroku"
         ],
         "screenshot_name": "sol6.png"
     }
