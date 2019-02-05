@@ -13,7 +13,7 @@ class Home extends React.Component {
 					</div>
                     <div className="top">
                         <a className="logo">
-                            <img alt="Logo" src={require("../../assets/icons/logo.png")} />
+                            <img alt="Logo" src={require("../../assets/logo.svg")} />
                         </a>
                         <div className="socials">
                             <a rel="noopener noreferrer" href="https://github.com/aureleoules" target="_blank" >
