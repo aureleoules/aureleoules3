@@ -11,8 +11,8 @@
     h1 {
         color: $primary;
     }
-    
-    h3  {
+
+    h3 {
         color: $white;
     }
 
@@ -29,33 +29,40 @@
             width: 50px;
         }
     }
+
     .top {
         top: 35px;
         right: 0;
         position: absolute;
         width: 100%;
+
         .socials {
             position: absolute;
             text-align: center;
             right: 35px;
+            display: flex;
+            align-items: center;
+
             a {
+                transition: all 100ms ease-in-out;
                 img {
                     margin: 0px 10px;
                     transition: all 250ms ease-in-out;
                     border-radius: 50%;
                     width: 32px;
                     animation: scale-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-                }
-                    
-                &:hover {
-                    img {
-                        transform: scale(1.1);
-                        
-                        background: $white;
-                        opacity: 0.9;
+
+                    &.instagram {
+                        border-radius: 0;
+                        width: 22px;
                     }
                 }
-            }   
+
+                &:hover {
+                    transform: scale(1.2)!important;
+                    opacity: 0.8;
+                }
+            }
         }
     }
 }

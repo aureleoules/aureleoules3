@@ -19,8 +19,8 @@ class Home extends React.Component {
                             <a rel="noopener noreferrer" href="https://github.com/aureleoules" target="_blank" >
                                     <img alt="GitHub" src={require("../../assets/icons/github.svg")}/>
                                 </a>
-                            <a rel="noopener noreferrer" href="https://twitter.com/aureleoules_" target="_blank">
-                                <img alt="Twitter" src={require("../../assets/icons/twitter.svg")} />
+                            <a rel="noopener noreferrer" href="https://www.instagram.com/aureleoules" target="_blank">
+                                <img alt="Instagram" className="instagram" src={require("../../assets/icons/instagram.svg")} />
                             </a>
                         </div>
                     </div>
