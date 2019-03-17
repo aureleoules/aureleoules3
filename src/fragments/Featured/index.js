@@ -23,7 +23,7 @@ class Featured extends React.Component {
 		const options = { afterReveal: elt => {
 			elt.style.cssText = ''; //remove code from scrollreveal
 		} };
-		sr.reveal('img', options);
+		sr.reveal('.img-container img', options);
 		sr.reveal('.informations a', options);
 		sr.reveal('.informations p', options);
 		sr.reveal('.informations img', options);

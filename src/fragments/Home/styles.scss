@@ -27,6 +27,15 @@
 
         img {
             width: 50px;
+            transition-duration: 0.8s;
+            transition-property: transform;
+            transform-origin: 50% 67.5%;
+            overflow: hidden;
+            margin-bottom: 15px;
+        
+            &:hover {
+                transform: rotate(-360deg)
+            }
         }
     }
     .top {

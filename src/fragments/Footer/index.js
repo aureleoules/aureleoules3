@@ -9,6 +9,9 @@ class Footer extends React.Component {
         return (
             <footer className="footer">
                 <div className="content">
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/aureleoules/aureleoules3">
+                        <img alt="Logo" src={require("../../assets/logo.svg")} />
+                    </a>
                     <h3>Aurèle Oulès - {new Date().getFullYear()}</h3>
                     <p>{strings.MADE_WITH} <a className="icon-heart">♥</a> {strings.BY} Aurèle Oulès</p>
                 </div>

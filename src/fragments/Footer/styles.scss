@@ -12,9 +12,23 @@
         text-align: center;
         color: $white;
 
+        img {
+            width: 60px;
+            transition-duration: 0.8s;
+            transition-property: transform;
+            transform-origin: 50% 67.5%;
+            overflow: hidden;
+            margin-bottom: 15px;
+        
+            &:hover {
+                transform: rotate(-360deg)
+            }
+        }
+
         h3 {
             font-family: 'Gilroy-ExtraBold'!important;
             color: $primary;
+            font-size: 1.3em!important;
             padding-bottom: 8px;
         }
         p {
