@@ -1,5 +1,7 @@
 import React from 'preact';
 
+import strings from '../../strings';
+
 import './styles.scss';
 
 class Home extends React.Component {
@@ -26,7 +28,11 @@ class Home extends React.Component {
 					<div className="infos">
 						<h1 className="tracking-in-expand">aureleoules</h1>
                         <h3 className="tracking-in-expand">FullStack Developer</h3>
-					</div>
+                        <a href="mailto:hello@aureleoules.com" className="project-contact tracking-in-expand">
+                            {strings.IDEA_IN_MIND}
+                        </a>
+					
+                    </div>
 				</div>
 			</div>;
     }
