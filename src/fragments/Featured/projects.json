@@ -1,5 +1,37 @@
 [
     {
+        "title": "constanceoules.com",
+        "description_fr": "Agence d'architecture intérieure basée à Paris. Rénovation, décoration, et design de mobilier.",
+        "description_en": "Interior architecture agency based in Paris. Renovation, decoration, and furniture design.",
+        "url": "https://www.constanceoules.com",
+        "technologies": [
+            "JavaScript", 
+            "react", 
+            "sass", 
+            "webpack",
+            "go",
+            "mongodb",
+            "heroku"
+        ],
+        "screenshot_name": "constanceoules.com.png"
+    },
+    {
+        "title": "arnaudjuherian.com",
+        "description_fr": "Arnaud Juherian - Photographe portraits, presse, arts.",
+        "description_en": "Arnaud Juherian - Photographer portraits, press, arts.",
+        "url": "https://www.arnaudjuherian.com",
+        "technologies": [
+            "JavaScript", 
+            "react", 
+            "sass", 
+            "webpack",
+            "go",
+            "mongodb",
+            "heroku"
+        ],
+        "screenshot_name": "arnaudjuherian.com.png"
+    },
+    {
         "title": "backpulse.io",
         "description_fr": "Backpulse est un service qui vous permet de construire votre propre site web sans avoir à vous soucier du système d'administration du contenu. Votre contenu est ensuite accessible par notre API non réstreinte.",
         "description_en": "Backpulse is a service that lets you build your own website without have to care about the content administration system. Your content is served by an unrestricted API access.",
@@ -32,22 +64,6 @@
         "screenshot_name": "reflecty.app.png"
     },
     {
-        "title": "constanceoules.com",
-        "description_fr": "Agence d'architecture intérieure basée à Paris. Rénovation, décoration, et design de mobilier.",
-        "description_en": "Interior architecture agency based in Paris. Renovation, decoration, and furniture design.",
-        "url": "https://www.constanceoules.com",
-        "technologies": [
-            "JavaScript", 
-            "react", 
-            "sass", 
-            "webpack",
-            "go",
-            "mongodb",
-            "heroku"
-        ],
-        "screenshot_name": "constanceoules.com.png"
-    },
-    {
         "title": "aureleoules3",
         "description_fr": "Mon site web personnel. (v3)",
         "description_en": "My personal website. (v3)",
@@ -59,19 +75,6 @@
             "webpack"
         ],
         "screenshot_name": "aureleoules3.png"
-    },
-    {
-        "title": "aureleoules2",
-        "description_fr": "Mon site web personnel. (v2)",
-        "description_en": "My personal website. (v2)",
-        "url": "https://aureleoules2.netlify.com/",
-        "technologies": [
-            "JavaScript",
-            "angular",
-            "CSS",
-            "webpack"
-        ],
-        "screenshot_name": "aureleoules2.png"
     },
     {
         "title": "Sol6",
