@@ -14,6 +14,10 @@ class Footer extends React.Component {
                     </a>
                     <h3>Aurèle Oulès - {new Date().getFullYear()}</h3>
                     <p>{strings.MADE_WITH} <a className="icon-heart">♥</a> {strings.BY} Aurèle Oulès</p>
+                    <div className="donate">
+                        <code>BTC 1LJMmY6RxDJqGEGgVXL7CBaykDFtFHcyNG</code>
+                        <code>XLM GBHZ23YJATFRYHLC3Q6ORM5R525Y5JOKD7KB2KTZVRJT2CZ5RM7N4I2E</code>
+                    </div>
                 </div>
             </footer>
         );
