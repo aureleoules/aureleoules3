@@ -7,7 +7,8 @@ const strings = {
         "GITHUB_PROJECTS": "Projets GitHub",
         "MADE_WITH": "Réalisé avec ",
         "BY": "par",
-        "IDEA_IN_MIND": "Une idée en tête ?"
+        "IDEA_IN_MIND": "Une idée en tête ?",
+        "DONATE": "Faire un don"
     },
     "en": {
         "TECHNOLOGY_STACK": "Technology Stack",
@@ -15,7 +16,8 @@ const strings = {
         "GITHUB_PROJECTS": "GitHub Projects",
         "MADE_WITH": "Made with ",
         "BY": "by",
-        "IDEA_IN_MIND": "An idea in mind?"
+        "IDEA_IN_MIND": "An idea in mind?",
+        "DONATE": "Donate"
     }
 }
 
