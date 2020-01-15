@@ -97,8 +97,10 @@ class Projects extends React.Component {
                         return true;
                     })
                     .map((repo, i) => {
-                        const icon = require("../../assets/icons/" + repo.language.toLowerCase() + ".svg");
-                        return <GitHubProject icon={icon} repository={repo}/>;
+                        if(repo.language) {
+                            const icon = require("../../assets/icons/" + repo.language.toLowerCase() + ".svg");
+                            return <GitHubProject icon={icon} repository={repo}/>;
+                        }
 					})}
 				</div>
 			</div>;
