@@ -10,7 +10,7 @@ class Home extends React.Component {
         return <div className="home">
 				<div>
                     <div className="top">
-                        <a title={strings.DONATE} target="_blank" rel="noopener noreferrer" href="https://commerce.coinbase.com/checkout/dcb8ffec-8717-4c70-85bb-b0dd588ea4d0" className="logo">
+                        <a className="logo">
                             <img alt="Logo" src={require("../../assets/logo.svg")} />
                         </a>
                         <div className="socials">

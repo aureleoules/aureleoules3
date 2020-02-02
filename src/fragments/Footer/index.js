@@ -9,7 +9,7 @@ class Footer extends React.Component {
         return (
             <footer className="footer">
                 <div className="content">
-                    <a title={strings.DONATE} target="_blank" rel="noopener noreferrer" href="https://commerce.coinbase.com/checkout/dcb8ffec-8717-4c70-85bb-b0dd588ea4d0">
+                    <a>
                         <img className="animate" alt="Logo" src={require("../../assets/logo.svg")} />
                     </a>
                     <h3>Aurèle Oulès - {new Date().getFullYear()}</h3>
