@@ -35,7 +35,7 @@
         "title": "backpulse.io",
         "description_fr": "Backpulse est un service qui vous permet de construire votre propre site web sans avoir à vous soucier du système d'administration du contenu. Votre contenu est ensuite accessible par notre API non réstreinte.",
         "description_en": "Backpulse is a service that lets you build your own website without have to care about the content administration system. Your content is served by an unrestricted API access.",
-        "url": "https://www.backpulse.io",
+        "url": "https://backpulse.aureleoules.com",
         "technologies": [
             "JavaScript", 
             "react", 
