@@ -1,5 +1,18 @@
 [
     {
+        "title": "scatteredcorp.tech",
+        "description_fr": "Plateforme de jeu décentralisée, open-source et sécurisée pour le jeu de billes avec la technologie de la Blockchain.",
+        "description_en": "Distributed, open-source, secure gaming plateform for the Marble Game powered by the Blockchain technology.",
+        "url": "https://www.scatteredcorp.tech",
+        "technologies": [
+            "JavaScript", 
+            "react", 
+            "sass", 
+            "webpack"
+        ],
+        "screenshot_name": "scatteredcorp.tech.png"
+    },
+    {
         "title": "constanceoules.com",
         "description_fr": "Agence d'architecture intérieure basée à Paris. Rénovation, décoration, et design de mobilier.",
         "description_en": "Interior architecture agency based in Paris. Renovation, decoration, and furniture design.",
@@ -16,20 +29,18 @@
         "screenshot_name": "constanceoules.com.png"
     },
     {
-        "title": "arnaudjuherian.com",
-        "description_fr": "Arnaud Juherian - Photographe portraits, presse, arts.",
-        "description_en": "Arnaud Juherian - Photographer portraits, press, arts.",
-        "url": "https://www.arnaudjuherian.com",
+        "title": "exiompartners.com",
+        "description_fr": "Exiom Partners - Conseil bancaire.",
+        "description_en": "Exiom Partners - Banking advisor.",
+        "url": "https://www.exiompartners.com",
         "technologies": [
             "JavaScript", 
             "react", 
             "sass", 
             "webpack",
-            "go",
-            "mongodb",
-            "heroku"
+            "go"
         ],
-        "screenshot_name": "arnaudjuherian.com.png"
+        "screenshot_name": "exiompartners.com.png"
     },
     {
         "title": "backpulse.io",
@@ -48,22 +59,6 @@
         "screenshot_name": "backpulse.io.png"
     },
     {
-        "title": "reflecty.app",
-        "description_fr": "Reflecty est une plateforme Web qui permet aux étudiants de rédiger des fiches de révision structurées, de les trier et de les apprendre efficacement.",
-        "description_en": "Reflecty is a web platform that allows students to write structured sheets, sort them, and learn them effectively.",
-        "url": "https://reflecty.app",
-        "technologies": [
-            "JavaScript", 
-            "react", 
-            "sass", 
-            "webpack",
-            "go",
-            "mongodb",
-            "heroku"
-        ],
-        "screenshot_name": "reflecty.app.png"
-    },
-    {
         "title": "aureleoules3",
         "description_fr": "Mon site web personnel. (v3)",
         "description_en": "My personal website. (v3)",
@@ -75,22 +70,5 @@
             "webpack"
         ],
         "screenshot_name": "aureleoules3.png"
-    },
-    {
-        "title": "Sol6",
-        "description_fr": "Sol6 est une association à but non lucratif qui permet aux étudiants de l’Université Pierre et Marie Curie (Paris VI), en majeur partie, de participer à des actions solidaires à l’étranger et de les guider lors de la préparation de leurs projets humanitaires.",
-        "description_en": "Sol6 is a non-profit association that allows students from the Pierre and Marie Curie University (Paris VI), for the most part, to take part in solidarity actions abroad and to guide them in the preparation of their humanitarian projects.",
-        "url": "https://www.sol6.org",
-        "technologies": [
-            "JavaScript",
-            "react",
-            "sass",
-            "webpack",
-            "nodejs",
-            "express",
-            "mongodb",
-            "heroku"
-        ],
-        "screenshot_name": "sol6.png"
     }
 ]
