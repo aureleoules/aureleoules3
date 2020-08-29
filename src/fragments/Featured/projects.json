@@ -1,18 +1,5 @@
 [
     {
-        "title": "scatteredcorp.tech",
-        "description_fr": "Plateforme de jeu décentralisée, open-source et sécurisée pour le jeu de billes avec la technologie de la Blockchain.",
-        "description_en": "Distributed, open-source, secure gaming plateform for the Marble Game powered by the Blockchain technology.",
-        "url": "https://www.scatteredcorp.tech",
-        "technologies": [
-            "JavaScript", 
-            "react", 
-            "sass", 
-            "webpack"
-        ],
-        "screenshot_name": "scatteredcorp.tech.png"
-    },
-    {
         "title": "constanceoules.com",
         "description_fr": "Agence d'architecture intérieure basée à Paris. Rénovation, décoration, et design de mobilier.",
         "description_en": "Interior architecture agency based in Paris. Renovation, decoration, and furniture design.",
@@ -27,6 +14,19 @@
             "heroku"
         ],
         "screenshot_name": "constanceoules.com.png"
+    },
+    {
+        "title": "scatteredcorp.tech",
+        "description_fr": "Plateforme de jeu décentralisée, open-source et sécurisée pour le jeu de billes avec la technologie de la Blockchain.",
+        "description_en": "Distributed, open-source, secure gaming plateform for the Marble Game powered by the Blockchain technology.",
+        "url": "https://scatteredcorp.netlify.app",
+        "technologies": [
+            "JavaScript", 
+            "react", 
+            "sass", 
+            "webpack"
+        ],
+        "screenshot_name": "scatteredcorp.tech.png"
     },
     {
         "title": "exiompartners.com",
