@@ -25,37 +25,37 @@ class Stack extends React.Component {
 				<div>
 					<h1>{strings.TECHNOLOGY_STACK}</h1>
 					<div className="technologies">
-						<a className="technology" href="#javascript">
-							<a className="icon-js">JavaScript</a>
-							<p>JavaScript</p>
+						<a className="technology" href="#go">
+							<a className="icon-golang">Golang</a>
+							<p>Go</p>
 						</a>
-						<a className="technology" href="#javascript">
+						<a className="technology" href="#typescript">
+							<a className="icon-ts">TypeScript</a>
+							<p>TypeScript</p>
+						</a>
+						<a className="technology">
 							<a className="icon-react">React.js</a>
 							<p>React.js</p>
 						</a>
-						<a className="technology" href="#javascript">
-							<a className="icon-nodejs">Node.js</a>
-							<p>Node.js</p>
+						<a className="technology">
+							<a className="icon-docker">Docker</a>
+							<p>Docker</p>
 						</a>
 						<a className="technology">
 							<a className="icon-sass">Sass</a>
 							<p>Sass</p>
 						</a>
 						<a className="technology" >
-							<a className="icon-webpack">Webpack</a>
-							<p>Webpack</p>
-						</a>
-						<a className="technology" href="#go">
-							<a className="icon-golang">Golang</a>
-							<p>Go</p>
+							<a className="icon-database">SQL</a>
+							<p>SQL</p>
 						</a>
 						<a className="technology">
-							<a className="icon-mongodb">MongoDB</a>
-							<p>MongoDB</p>
+							<a className="icon-git">Git</a>
+							<p>Git</p>
 						</a>
 						<a className="technology">
-							<a className="icon-mysql">MySQL</a>
-							<p>MySQL</p>
+							<a className="icon-bitcoin">Bitcoin</a>
+							<p>Bitcoin</p>
 						</a>
 					</div>
 				</div>

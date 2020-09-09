@@ -18,8 +18,11 @@ class Home extends React.Component {
                                 Contact
                             </a>
                             <a rel="noopener noreferrer" href="https://github.com/aureleoules" target="_blank" >
-                                    <img alt="GitHub" src={require("../../assets/icons/github.svg")}/>
-                                </a>
+                                <img alt="GitHub" src={require("../../assets/icons/github.svg")}/>
+                            </a>
+                            <a rel="noopener noreferrer" href="http://linkedin.com/in/aureleoules" target="_blank" >
+                                <img alt="LinkedIn" className="linkedin" src={require("../../assets/icons/linkedin.svg")}/>
+                            </a>
                             <a rel="noopener noreferrer" href="https://www.instagram.com/aureleoules" target="_blank">
                                 <img alt="Instagram" className="instagram" src={require("../../assets/icons/instagram.svg")} />
                             </a>

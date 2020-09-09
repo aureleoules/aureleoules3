@@ -1,6 +1,9 @@
 a.icon-js::before {
     content: url("../assets/icons/javascript.svg");
 }
+a.icon-ts::before {
+    content: url("../assets/icons/typescript.svg");
+}
 a.icon-nodejs::before {
     content: url("../assets/icons/nodejs.svg");
 }
@@ -30,4 +33,16 @@ a.icon-fork::before {
 }
 a.icon-heart::before {
     content: url("../assets/icons/heart.svg");
+}
+a.icon-docker::before {
+    content: url("../assets/icons/docker.svg");
+}
+a.icon-database::before {
+    content: url("../assets/icons/database.svg");
+}
+a.icon-bitcoin::before {
+    content: url("../assets/icons/bitcoin.svg");
+}
+a.icon-git::before {
+    content: url("../assets/icons/git-plain.svg");
 }

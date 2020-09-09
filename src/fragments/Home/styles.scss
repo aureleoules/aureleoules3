@@ -95,7 +95,6 @@
                 img {
                     margin: 0px 10px;
                     transition: all 250ms ease-in-out;
-                    border-radius: 50%;
                     width: 32px;
                     animation: scale-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 
@@ -103,10 +102,14 @@
                         border-radius: 0;
                         width: 22px;
                     }
+
+                    &.linkedin {
+                        width: 22px;
+                    }
                 }
 
                 &:hover {
-                    transform: scale(1.2);
+                    transform: scale(1.1);
                     opacity: 0.8;
                 }
             }

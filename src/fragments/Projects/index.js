@@ -92,6 +92,8 @@ class Projects extends React.Component {
                     })
                     .filter(repo => {
                         if(this.state.languageFilter) {
+                            if(!repo.language) return false;
+                            
                             return repo.language.toLowerCase() === this.state.languageFilter
                         }
                         return true;
