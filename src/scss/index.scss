@@ -13,12 +13,9 @@
     font-weight: normal;
     font-style: normal;
 }
-@font-face {
-    font-family: 'HansKendrick';
-    src: url('../assets/fonts/HansKendrick-Regular.otf') format('opentype');
-}
 
-#root > div {
+
+#root>div {
     height: 100%;
 }
 
@@ -27,12 +24,17 @@ div {
     height: auto;
 }
 
-body, html, #root {
+body,
+html,
+#root {
     width: 100%;
     height: 100%;
     margin: 0;
 
-    h1,h2,h3,p {
+    h1,
+    h2,
+    h3,
+    p {
         margin: 0;
     }
 
@@ -40,9 +42,13 @@ body, html, #root {
         font-family: 'Gilroy-ExtraBold';
         font-size: 3.5em;
     }
-    h2,h3,p {
-        font-family: 'HansKendrick';
+
+    h2,
+    h3,
+    p {
+        font-family: 'Gilroy-Light';
     }
+
     h3 {
         font-size: 1.5em;
     }

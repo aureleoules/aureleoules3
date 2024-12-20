@@ -1,5 +1,5 @@
 @import "../../scss/colors";
-    
+
 .featured-project {
     position: relative;
     width: 90%;
@@ -12,17 +12,18 @@
         padding-right: 0;
 
         .img-container {
-            width: 100%!important;
+            width: 100% !important;
 
             img {
-                width: 75%!important;
+                width: 75% !important;
             }
         }
+
         .informations {
-            padding: 0!important;
+            padding: 0 !important;
         }
     }
-    
+
     .img-container {
         overflow: hidden;
         width: 40%;
@@ -30,29 +31,31 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        
+
         h2 {
             position: absolute;
-            font-family: "Gilroy-ExtraBold"!important;
+            font-family: "Gilroy-ExtraBold" !important;
             color: $white;
             font-size: 2.5em;
             opacity: 0;
             transition: opacity .3s ease-in-out;
+
             &:hover {
                 opacity: 1;
             }
         }
 
-        
+
         &:hover {
             h2 {
                 opacity: 1;
             }
+
             img {
                 opacity: 0.6;
             }
         }
-        
+
         img {
             cursor: pointer;
             width: 100%;
@@ -78,16 +81,17 @@
             justify-content: center;
             width: 80%;
             flex-wrap: wrap;
+
             img {
                 width: 32px;
                 height: 32px;
                 padding: 10px;
             }
         }
-        
+
         a {
             font-size: 2.5em;
-            font-family: "HansKendrick";
+            font-family: "Gilroy-Light";
             text-decoration: none;
             color: $primary;
             transition: color 0.15s ease-in;
@@ -96,6 +100,7 @@
                 color: $secondary;
             }
         }
+
         p {
             color: $white;
             max-width: 80%;

@@ -33,13 +33,14 @@
         box-sizing: border-box;
         padding: 12px;
         color: white;
-        font-family: 'HansKendrick';
+        font-family: 'Gilroy-Light';
         text-align: center;
         margin-top: 10%;
         text-decoration: none;
         transition: 0.25s;
 
-        &:hover,&:focus {
+        &:hover,
+        &:focus {
             box-shadow: inset 20em 0 0 0 #65ccb8;
         }
     }
@@ -56,28 +57,28 @@
             transform-origin: 50% 67.5%;
             overflow: hidden;
             margin-bottom: 15px;
-        
+
             &:hover {
                 transform: rotate(-360deg)
             }
         }
     }
-    
+
     .top {
         top: 35px;
         right: 0;
         position: absolute;
         width: 100%;
-        
+
         .contact {
             border-radius: 20px;
             padding: 6px 15px;
             background: #65cbb7;
             color: white;
             text-decoration: none;
-            font-family: 'HansKendrick';
+            font-family: 'Gilroy-Light';
             // transition: none;
-            transform: none!important;
+            transform: none !important;
             animation: scale-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
         }
 
@@ -92,6 +93,7 @@
                 transition: all 100ms ease-in-out;
                 display: flex;
                 align-items: center;
+
                 img {
                     margin: 0px 10px;
                     transition: all 250ms ease-in-out;
